@@ -1,11 +1,16 @@
 class empleado():
     def __init__(self, cedula, nombre, cargo):
-       print("El objeto Empleado fue creado.")
+        self.cedula=cedula
+        self.nombre=nombre
+        self.cargo=cargo
+        print("El objeto Empleado fue creado.")
         
-    def RealizarTarea():
-        print("Realiza tareas el empleado")
-    def RegistrarAsistencia():
-        print("Se registra la asistencia del empleado")
-    def Reportar_Incidencias():
-        print("Reporta inasistencias de empleado")
+    def RealizarTarea(self):
+        pass
+    def RegistrarAsistencia(self):
+        pass
+    def Reportar_Incidencias(self):
+        pass
+    def imprimir_Empleado(self):
+        print (self.cedula+" "+ self.nombre+" "+ self.cargo)
         

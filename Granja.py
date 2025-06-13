@@ -10,5 +10,8 @@ class granja():
     def RegistrarAnimal(self, tipo, edad, sexo):
         objAnimal=animal(tipo, edad, sexo)
         objAnimal.imprimirDato()
+    def RegistrarPeso(self, tipo, edad, sexo):
+        objAnimal=animal(tipo, edad, sexo)
+        objAnimal.RegistrarPeso()
     
     

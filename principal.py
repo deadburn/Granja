@@ -11,6 +11,8 @@ def MostrarMenu():
         num=(input("Ingrese Su opción: "))
         return num
     
+##
+    
 ##Funcion Para Registrar animal
 def auxRegistrarAnimal():
     tipo=input("Digite el tipo de Animal: ")

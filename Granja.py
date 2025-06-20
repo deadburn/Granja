@@ -1,5 +1,11 @@
 from Animal import animal
+from Empleado import empleado
 class granja():
+    
+    def __init__(self, nombre):
+        self._nombre=nombre
+        
+    
     def __init__(self):
         pass
     
